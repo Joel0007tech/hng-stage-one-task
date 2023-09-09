@@ -11,11 +11,13 @@
     width: fit-content;
     margin: auto;  
     margin-top: 40px;
+    border: 5px solid white;
+    border-radius: 10px;
 }
 [data-testid="slackUserName"]{
     color:white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .img{
    display:flex;
@@ -31,7 +33,7 @@
 [data-testid="myTrack"]{
     color:white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     padding-top: 10px;
 }
 .link{
@@ -42,7 +44,7 @@
 [data-testid="githubURL"]{
     color:white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     background-image: linear-gradient(#ffd89b, #19547b);
     width: fit-content;
@@ -52,4 +54,14 @@
 [data-testid="githubURL"]:hover{
     background-image: linear-gradient(#19547b, #ffd89b);
     color: black;
+}
+#currentUTCTime{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+#currentDayOfTheWeek{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
 }
